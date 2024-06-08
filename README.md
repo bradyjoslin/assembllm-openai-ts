@@ -26,7 +26,7 @@ Sample configuration update to `~/.assembllm/config.yaml`:
 
 ```yaml
   - name: openaits
-    source: https://github.com/bradyjoslin/assembllm-openai-ts/releases/latest/download/assembllm_openai-ts.wasm
+    source: https://github.com/bradyjoslin/assembllm-openai-ts/releases/latest/download/assembllm-openai-ts.wasm
     hash: 
     apiKey: OPENAI_API_KEY
     url: api.openai.com
