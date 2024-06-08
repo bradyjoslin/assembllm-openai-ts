@@ -19,3 +19,17 @@ Built wasm file will be in `dist/`.
 ```bash
 make test
 ```
+
+## Add to assembllm
+
+Sample configuration update to `~/.assembllm/config.yaml`:
+
+```yaml
+  - name: openaits
+    source: https://github.com/bradyjoslin/assembllm-openai-ts/releases/latest/download/assembllm_openai-ts.wasm
+    hash: 
+    apiKey: OPENAI_API_KEY
+    url: api.openai.com
+    model: gpt-4o
+    wasi: true
+```
